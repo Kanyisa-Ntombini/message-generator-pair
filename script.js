@@ -1,7 +1,3 @@
-// const verbs = 
-// const nouns = 
-// const adjectives = 
-
 // optionally, components of the sentence can be sotred in an object
 const sentenceComponents =  {
     nouns: ['guitar', 'saxophone', 'piano', 'radio', 'tempo', 'rhythm', 'voice'],
@@ -75,13 +71,8 @@ const generateSentence = () => {
             sentenceTemplate = sentenceTemplate.replace("verb",selectedGrammer.verb)
         }
         
-    
     return sentenceTemplate;
 }
 
 //Testing
-// console.log(generateSentence())
 console.log(generateSentence())
-// console.log(nouns[Math.floor(Math.random() * nouns.length)]);
-// console.log(verbs[Math.floor(Math.random() * verbs.length)]);
-console.log(sentenceComponents.sentenceTemplates);
